@@ -7,7 +7,7 @@ setlocal enabledelayedexpansion
 
 SET sessFile=_session.txt
 
-SET Address=0
+SET Address=3CiJf93GCiCenoPyC2rXHQ7D9BJAeX6ksX
 echo [~] calc total Address in file "!file!" ..
 For /F %%a In (%file%) Do (
 	SET /a Address+=1
